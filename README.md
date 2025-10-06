@@ -33,9 +33,9 @@
 
   3. Media Queries for responsiveness
 
-### 1. Clone repo -
+### 1. Clone the repository -
  ```bash
-   Clone the repository: git clone https://github.com/virendrap1516/Infotech_Services 🗂️
+    git clone https://github.com/virendrap1516/Infotech_Services 🗂️
    ```
 ### 2. Run HTML
  ```bash
