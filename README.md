@@ -8,7 +8,7 @@
 
 ✅ Used clean, maintainable, and well-commented code for easy future edits.
 
-# Deployed on Vercel - https://infotechservices-seven.vercel.app/ 🚀
+## Deployed on Vercel - https://infotechservices-seven.vercel.app/ 🚀
 
 ## Key Requirements for Screening 👨‍💻
   ### 1. Pixel Perfect
