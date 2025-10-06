@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Infotech_Services</title>
+
+    <!-- Google Fonts: Figtree -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./landing.css">
+</head>
+
+<body>
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <!-- Logo -->
+            <a class="logo" href="#">
+                <img src="logo.png" alt="Company logo">
+            </a>
+
+            <!-- Desktop Navigation Menu -->
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#AboutUs">About Us</a>
+                <a href="#features">Our Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="actions">
+                <button class="btn btn-primary btn-nav">Get a Quote</button>
+                <!-- Hamburger Menu Icon for Mobile -->
+                <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+            <div class="mobile-inner">
+                <!-- Mobile Logo -->
+                <div>
+                    <a href="#">
+                        <img src="logo.png" alt="Company logo">
+                    </a>
+                </div>
+
+                <!-- Close Button for Mobile Menu -->
+                <button id="mobileClose" class="mobile-close" aria-label="Close menu">✕</button>
+
+                <!-- Mobile Menu Links -->
+                <ul>
+                    <!-- <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z"/></svg>Home</a></li> -->
+                    <ul class="menu-links">
+                <li class="active">
+                    <a href="#" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="#E91E63" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z"/>
+                    </svg>
+                    <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+                    <span>About Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3 21h2.03v-6H3zm9.45 1l-2.93-.64l-2.93-.64A.76.76 0 0 1 6 20v-4a.7.7 0 0 1 .17-.47a.75.75 0 0 1 .43-.27l4.78-.59l4.79-.67l.15.55l.15.55a1 1 0 0 1-.56.9l-2 .5l-2 .5l1.62.65l1.62.65l2.28-.64l2.22-.66a.73.73 0 0 1 .58.07a.75.75 0 0 1 .36.47l.19.76l.2.77a.74.74 0 0 1-.54.9l-3.63 1l-3.63 1a1.5 1.5 0 0 1-.36.05a1.6 1.6 0 0 1-.37-.02m5.57-13.5l-3.5-2.25L11.02 4v9l3.5-2.25z"/></svg>
+                    <span>Our Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#pricing" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3.207 14.207a1 1 0 0 1 0-1.414l9.5-9.5A1 1 0 0 1 13.414 3H20a1 1 0 0 1 1 1v6.586a1 1 0 0 1-.293.707l-9.5 9.5a1 1 0 0 1-1.414 0zM16 10a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/></svg>
+                    <span>Pricing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#faq" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M13 0c-1.7 0-3 1.3-3 3v6c0 1.7 1.3 3 3 3h6l4 4v-4c1.7 0 3-1.3 3-3V3c0-1.7-1.3-3-3-3zm4.188 3h1.718l1.688 6h-1.5l-.407-1.5h-1.5L16.813 9H15.5zM18 4c-.1.4-.212.888-.313 1.188l-.28 1.312h1.187l-.282-1.313C18.113 4.888 18 4.4 18 4M3 10c-1.7 0-3 1.3-3 3v6c0 1.7 1.3 3 3 3v4l4-4h6c1.7 0 3-1.3 3-3v-6h-3c-1.9 0-3.406-1.3-3.906-3zm4.594 2.906c1.7 0 2.5 1.4 2.5 3c0 1.4-.481 2.288-1.281 2.688c.4.2.874.306 1.374.406l-.374 1c-.7-.2-1.426-.512-2.126-.813c-.1-.1-.275-.093-.375-.093C6.112 18.994 5 18 5 16c0-1.7.994-3.094 2.594-3.094m0 1.094c-.8 0-1.188.9-1.188 2c0 1.2.388 2 1.188 2s1.218-.9 1.218-2s-.418-2-1.218-2"/></svg>
+                    <span>FAQ</span>
+                    </a>
+                </li>
+                </ul>
+
+                <!-- Call to Action for Mobile -->
+                <button class="btn btn-primary btn-block">Contact us</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <!-- Left: Hero Content -->
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Your Resume<br />
+                        <span class="accent">Deserves A Yes
+                            <!-- Decorative SVG Underlines -->
+                            <svg class="hero-underline" viewBox="0 0 365 21" width="300" height="21" aria-hidden="true">
+                                <path d="M49 8.24991C78.6784 6.24991 150.727 2.24991 201.496 2.24991C252.265 2.24991 300.319 4.09606 318 5.01914"
+                                    stroke="#FA1239" stroke-width="3" fill="none" stroke-linecap="round" />
+                            </svg>
+                            <svg class="hero-underline" viewBox="0 0 365 21" width="300" height="21" aria-hidden="true">
+                                <path d="M49 8.24991C78.6784 6.24991 150.727 2.24991 201.496 2.24991C252.265 2.24991 300.319 4.09606 318 5.01914"
+                                    stroke="#FA1239" stroke-width="3" fill="none" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        Let's Make It Happen
+                    </h1>
+
+                    <!-- Hero Subtitle -->
+                    <p class="hero-sub">
+                        If your resume isn't getting responses, it's time for an upgrade. Get an ATS-optimized resume
+                        crafted by HR experts to help you land more interviews. Our resumes are designed to get your foot in the door and place your name at the top of the shortlist.
+                    </p>
+
+                    <!-- Hero Call-to-Action Buttons -->
+                    <div class="hero-cta">
+                        <button class="btn btn-outline">RESUME PAKAGES</button>
+                        <button class="btn btn-solid">CONTACT US</button>
+                    </div>
+                </div>
+
+                <!-- Right: Hero Image -->
+                <div class="hero-media">
+                    <div class="media-frame">
+                        <img class="hero-image" src="Group 12.png" alt="Smiling person">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="features-header">
+                    <div class="pill">What You Get</div>
+                    <h2 class="features-title">
+                        You're Not Just <span class="accent">Another Applicant</span> And Your Resume Shouldn't Look Like One
+                    </h2>
+                </div>
+
+                <!-- Feature Cards -->
+                <div class="cards">
+                    <!-- Feature 1 -->
+                    <article class="card">
+                        <img src="features1.png" alt="Resume Icon">
+                        <h3>A Resume Format That Gets You Interviews</h3>
+                        <p>Get a professionally written, keyword-optimized resume that lands in recruiter inboxes.</p>
+                    </article>
+
+                    <!-- Feature 2 -->
+                    <article class="card">
+                        <img src="features2.png" alt="Cover Letter Icon">
+                        <h3>A Cover Letter Style That Stands Out Strong</h3>
+                        <p>Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+                    </article>
+
+                    <!-- Feature 3 -->
+                    <article class="card">
+                        <img src="features3.png" alt="LinkedIn Icon">
+                        <h3>A LinkedIn Profile That Works For You</h3>
+                        <p>Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+                    </article>
+
+                    <!-- Feature 4 -->
+                    <article class="card">
+                        <img src="features4.png" alt="Interview Icon">
+                        <h3>An Interview Strategy That Builds Confidence</h3>
+                        <p>Interview preparation with real HR professionals so you speak clearly confidently.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript Section -->
+    <script>
+        // Handle mobile menu toggle: open menu
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileClose = document.getElementById('mobileClose');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.style.display = 'block';
+            mobileMenu.setAttribute('aria-hidden', 'false');
+        });
+
+        // Handle mobile menu toggle: close menu
+        mobileClose.addEventListener('click', () => {
+            mobileMenu.style.display = 'none';
+            mobileMenu.setAttribute('aria-hidden', 'true');
+        });
+
+        // Auto-set the current year if #year element is present
+        // Note: Make sure you have <span id="year"></span> in your footer or wherever you need the year displayed.
+        const yearEl = document.getElementById('year');
+        if (yearEl) {
+            yearEl.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>
