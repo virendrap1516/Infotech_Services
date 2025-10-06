@@ -1,4 +1,4 @@
-## Infotech Services landing page ⚡
+# Infotech Services landing page ⚡
 
 ✅ Converted a Figma design into a static HTML and CSS file.
 
@@ -7,6 +7,8 @@
 ✅ Create a fully responsive layout that works seamlessly across all screen sizes (mobile, tablet, desktop).
 
 ✅ Used clean, maintainable, and well-commented code for easy future edits.
+
+# Deployed on Vercel - https://infotechservices-seven.vercel.app/ 🚀
 
 ## Key Requirements for Screening 👨‍💻
   ### 1. Pixel Perfect
